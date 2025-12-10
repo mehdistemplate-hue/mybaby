@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Scrapbook</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #f3e9e4;
+        font-family: "Poppins", sans-serif;
+        overflow-x: hidden;
+    }
+    .section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .frame {
+        background: white;
+        padding: 20px;
+        border-radius: 25px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        max-width: 80vw;
+        max-height: 80vh;
+    }
+    .photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .error {
+        padding: 20px;
+        background: #ffcccc;
+        border: 2px solid red;
+        border-radius: 10px;
+        text-align: center;
+        width: 300px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="section">
+    <h1>Happy Birthday My Love ❤️</h1>
+</div>
+
+<!-- CHANGE ONLY THESE PATHS IF YOUR FILE NAMES ARE DIFFERENT -->
+<div class="section"><div class="frame"><img class="photo" src="images/1.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 1 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/2.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 2 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/3.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 3 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/4.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 4 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/5.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 5 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/6.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 6 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/7.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 7 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/8.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 8 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/9.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 9 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/10.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 10 not found</div>'"></div></div>
+<div class="section"><div class="frame"><img class="photo" src="images/11.jpg" onerror="this.outerHTML='<div class=\'error\'>Image 11 not found</div>'"></div></div>
+
+</body>
+</html>
